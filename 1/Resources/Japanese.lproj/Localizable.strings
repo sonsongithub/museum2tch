@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+<!-- application -->
+		<key>applicationName</key>
+		<string>2tch</string>
+<!-- preference -->
+		<key>preferenceTitle</key>
+		<string>設定</string>
+		
+		<key>threadTitleFont</key>
+		<string>スレッド一覧フォント</string>
+		<key>threadFont</key>
+		<string>スレッドフォント</string>
+		<key>font0</key>
+		<string>Small</string>
+		<key>font1</key>
+		<string>Medium</string>
+		<key>font2</key>
+		<string>Large</string>
+		<key>font3</key>
+		<string>Extra Large</string>
+		<key>font4</key>
+		<string>Giant</string>
+		
+		<key>daysToMaintain</key>
+		<string>キャッシュ保管日数</string>
+		<key>delete0</key>
+		<string>削除しない</string>
+		<key>delete1</key>
+		<string>5</string>
+		<key>delete2</key>
+		<string>10</string>
+		<key>delete3</key>
+		<string>15</string>
+		<key>delete4</key>
+		<string>20</string>
+		<key>delete5</key>
+		<string>25</string>
+		
+		<key>offlinemode</key>
+		<string>オフラインモード</string>
+		<key>updateBBSMenuHTML</key>
+		<string>板一覧を更新</string>
+		<key>deleteAllCache</key>
+		<string>キャッシュをすべて削除</string>
+		<key>deleteAllCacheConfirm</key>
+		<string>キャッシュをすべて削除しますか？</string>
+		<key>initialize</key>
+		<string>初期化</string>
+		<key>initializeConfirm</key>
+		<string>初期化しますか？</string>
+		
+		<key>string_true</key>
+		<string>true</string>
+		<key>string_false</key>
+		<string>false</string>
+		
+		<key>preferenceNaviBarLeft</key>
+		<string>2tch</string>
+<!-- transition view -->
+		<key>favouriteError</key>
+		<string>お気に入りを開けませんでした</string>
+		<key>threadError</key>
+		<string>このスレッドは開けませんでした</string>
+		<key>threadTitleError</key>
+		<string>このスレッド一覧は開けませんでした</string>
+<!-- bbsmenu.html important keyword -->
+		<key>bbsmenuHTMLTIitle</key>
+		<string>BBS MENU for 2ch</string>
+		<key>bbsmenuError</key>
+		<string>bbsmenu.htmlをダウンロードできませんでした</string>
+<!-- category view -->
+		<key>categoryNaviBarLeft</key>
+		<string>設定</string>
+		<key>categoryNaviBarRight</key>
+		<string>お気に入り</string>
+		<key>categoryNaviBarTitle</key>
+		<string>カテゴリ</string>
+<!-- board view -->
+		<key>boardNaviBarLeft</key>
+		<string>カテゴリ</string>
+		<key>boardNaviBarTitle</key>
+		<string>板一覧</string>
+<!-- thread title view -->
+		<key>resMessagePrefix</key>
+		<string>レス数:</string>
+<!-- thread view -->
+<!-- favourite view -->
+		<key>fabouriteNaviBarLeft</key>
+		<string>戻る</string>
+		<key>fabouriteNaviBarTitle</key>
+		<string>お気に入り</string>
+<!-- favourite thread view -->
+		<key>fabouriteThreadNaviBarLeft</key>
+		<string>お気に入り</string>
+	</dict>
+</plist>
+

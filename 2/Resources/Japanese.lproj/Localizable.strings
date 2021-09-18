@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>appName</key>
+		<string>2tch</string>
+		
+		<key>version</key>
+		<string>v2 alpha02</string>
+		
+		<key>bbsmenuHTMLTitle</key>
+		<string>BBS MENU for 2ch</string>
+		<key>bbsmenuLoadError</key>
+		<string>板一覧を読み込めませんでした．</string>
+		
+		<key>categoryNaviBarTitle</key>
+		<string>カテゴリ</string>
+		<key>categoryNaviBarLeft</key>
+		<string>設定</string>
+		
+		<key>boardNaviBarLeft</key>
+		<string>カテゴリ一覧</string>
+		<key>boardNaviBarTitle</key>
+		<string>板一覧</string>
+		<key>threadTitleNaviBarLeft</key>
+		<string>板一覧</string>
+		<key>threadTitleNaviBarTitle</key>
+		<string>スレッド</string>
+		<key>downloadFailMessage</key>
+		<string>URLが見つかりません．ダウンロードできませんでした．</string>
+		<key>historyBarTitle</key>
+		<string>履歴</string>
+		<key>bookmarkBarTitle</key>
+		<string>ブックマーク</string>
+		<key>bookmarkViewCloseTitle</key>
+		<string>閉じる</string>
+		<key>bookmarkViewEditTitle</key>
+		<string>編集</string>
+		<key>historyDeleteConfirmationMsg</key>
+		<string>履歴のみを削除</string>
+		<key>cacheDeleteConfirmationMsg</key>
+		<string>履歴とキャッシュを削除</string>
+		<key>cancelMsg</key>
+		<string>キャンセル</string>
+		<key>okMsg</key>
+		<string>OK</string>
+
+		<key>titleRefineSheet</key>
+		<string>スレッドタイトル絞り込み</string>
+		<key>bodyRefineSheet</key>
+		<string>キーワードを入力してください</string>
+		<key>okRefineSheet</key>
+		<string>OK</string>
+		<key>cancelRefineSheet</key>
+		<string>キャンセル</string>
+		<key>refineLabelMessage</key>
+		<string> で絞り込み中</string>
+	</dict>
+</plist>
+

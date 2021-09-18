@@ -1,0 +1,89 @@
+// ---------- Global ---------- //
+"SvnRevision" = "172";
+"SvnUpdateDate" = "2008-08-18 23:02:01 +0900";
+"Error" = "エラー";
+"ErrorWrongDataRead" = "読み込めませんでした．";
+"ErrorOKButton" = "OK";
+
+// ---------- BaseInfoViewController ---------- //
+"InfoViewTitle" = "情報";
+"InfoViewClose" = "閉じる";
+"InfoView_AppSectionTitle" = "アプリケーション";
+"InfoViewApplicationTitle" = "名前";
+"InfoViewVersionTitle" = "バージョン";
+"InfoViewCopyRightTitle" = "著作権";
+"InfoViewCopyRight" = "sonson";
+"InfoViewGoToWebSite" = "ホームページへ";
+"InfoViewGoToWebSiteURL" = "http://son-son.sakura.ne.jp/i/app_store/2tch_free.html";
+"InfoView_InfoSectionTitle" = "お知らせ";
+"InfoView_InfoMessage" = "この2tch freeは，無料です．もし気に入れば，開発補助のために後日公開予定の有料版の2tchを購入してください．";
+"InfoView_CacheSectionTitle" = "キャッシュ";
+"InfoViewDeleteCache" = "キャッシュを削除";
+"InfoViewCacheSize" = "サイズ";
+"InfoViewCacheLoading" = "読み込み中...";
+"InfoViewNumberOfThread" = "スレッド";
+"InfoViewCacheSheetTitle" = "キャッシュを削除しますか？";
+"InfoViewCacheSheetCancelButton" = "キャンセル";
+"InfoViewCacheSheetDeleteButton" = "すべて削除";
+
+// ---------- Downloader ---------------------- //
+"DownloaderNetworkErrorMsg" = "ネットワークエラー";
+"DownloaderNetworkErrorDatFialed" = "Dat落ちかもしれません";
+
+// ---------- MainWindowController ------------ //
+"CategoryViewTitle" = "カテゴリ";
+"InfoViewOpen" = "情報";
+
+// ---------- BoardViewController ------------- //
+"BoardViewTitle" = "板一覧";
+
+// ------------- BBSMenuParser ---------------- //
+"BBSMenuHUDMessage" = "板一覧を更新...";
+
+// ---------- ThreadTitleViewController-------- //
+"ThreadTitleViewTitle" = "スレッド一覧";
+"ThreadTitleViewSearchPrompt" = "タイトル検索";
+"ThreadTitleCellPrompt" = "レス数";
+"ThreadTitleCellPromptGot" = "既得数";
+
+// ---------- ThreadViewController-------- //
+"ThreadViewLoadingHUD" = "読み込み中...";
+"ThreadViewResHUD" = "レス数";
+"ThreadViewConfirmOpenSafari" = "Safariで開きますか？";
+"ThreadViewConfirmOpenSafariCancel" = "キャンセル";
+"ThreadViewConfirmOpenSafariOK" = "開く";
+
+// ------------- DatFileParser ---------------- //
+"DatFileParserLoadingTitle" = "スレッド一覧を読み込み...";
+"DatFileParserCompleteTitle" = "完了！";
+
+// ---------- BookmarkViewController ---------- //
+"BookmarkViewTitle" = "ブックマーク";
+"BookmarkViewClose" = "閉じる";
+"BookmarkViewEdit" = "編集";
+"BookmarkViewEditComplete" = "完了";
+
+// ---------- HistoryViewController ----------- //
+"HistoryViewTitle" = "履歴";
+"HistoryViewClose" = "閉じる";
+"HistoryViewDelete" = "消去";
+
+"HistoryViewDeletePrompt" = "履歴を消去しますか？";
+"HistoryViewDeleteButton0" = "履歴";
+"HistoryViewDeleteButton1" = "キャンセル";
+
+// ---------- BBSMenu読み込みのための識別用の文字列 ---------- //
+"HeaderBBSMenu" = "地震";
+"FooterBBSMenu" = "まちＢＢＳ";
+//"FooterBBSMenu" = "他のサイト";
+
+// ---------- ReplyViewController ----------- //
+"ReplyTitle" = "書き込み";
+"ReplyLeftButton" = "書き込む";
+"ReplyRightButton" = "閉じる";
+"ReplyPromptName" = "名前";
+"ReplyPromptEmail" = "メールアドレス";
+"ReplyPromptBody" = "本文";
+"ReplyAlertViewConfirmWriting" = "書き込み確認";
+"ReplyAlertViewConfirmComplete" = "書き込み完了";
+"ReplyAlertViewConfirmFail" = "書き込み失敗";

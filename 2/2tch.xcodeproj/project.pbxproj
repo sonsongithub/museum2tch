@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		14273CFA0D5EEFC500060CC9 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		14273CFB0D5EEFC500060CC9 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		14273FF70D5F422C00060CC9 /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
+		14273FF80D5F422C00060CC9 /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+		142742680D5FF4BE00060CC9 /* subjectTxt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subjectTxt.h; sourceTree = "<group>"; };
+		142742690D5FF4BE00060CC9 /* subjectTxt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subjectTxt.m; sourceTree = "<group>"; };
+		142743620D60079400060CC9 /* ThreadTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadTitleView.h; sourceTree = "<group>"; };
+		142743630D60079400060CC9 /* ThreadTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadTitleView.m; sourceTree = "<group>"; };
+		142744AF0D6030A700060CC9 /* DatFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatFile.h; sourceTree = "<group>"; };
+		142744B00D6030A700060CC9 /* DatFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatFile.m; sourceTree = "<group>"; };
+		142745AD0D605A2B00060CC9 /* ThreadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadView.h; sourceTree = "<group>"; };
+		142745AE0D605A2B00060CC9 /* ThreadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadView.m; sourceTree = "<group>"; };
+		143CB7EA0D7AD0E700E9BEBA /* HistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryController.h; sourceTree = "<group>"; };
+		143CB7EB0D7AD0E700E9BEBA /* HistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryController.m; sourceTree = "<group>"; };
+		143CB89C0D7ADBD600E9BEBA /* BookmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkView.h; sourceTree = "<group>"; };
+		143CB89D0D7ADBD600E9BEBA /* BookmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkView.m; sourceTree = "<group>"; };
+		1484DEDD0D44E2AC00DAEE94 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		1484DEE00D44E2AC00DAEE94 /* Japanese */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Japanese; path = Localizable.strings; sourceTree = "<group>"; };
+		14B213E90D35EABC003FE31D /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		14C0B08E0D4B06B900987A3B /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		14C0B08F0D4B06B900987A3B /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		14C0B0930D4B072300987A3B /* RootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootController.h; sourceTree = "<group>"; };
+		14C0B0940D4B072300987A3B /* RootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootController.m; sourceTree = "<group>"; };
+		14C0B0A50D4B0A2C00987A3B /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		14C0B0A60D4B0A2C00987A3B /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		14C0B0B60D4B0B8F00987A3B /* BBSMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBSMenu.h; sourceTree = "<group>"; };
+		14C0B0B70D4B0B8F00987A3B /* BBSMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBSMenu.m; sourceTree = "<group>"; };
+		14C0B24B0D4B367000987A3B /* global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = global.m; sourceTree = "<group>"; };
+		14C0B3240D4B661100987A3B /* CategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryView.h; sourceTree = "<group>"; };
+		14C0B3250D4B661100987A3B /* CategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryView.m; sourceTree = "<group>"; };
+		14CAE4800D82977E005AB3C8 /* BKMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKMainController.h; sourceTree = "<group>"; };
+		14CAE4810D82977E005AB3C8 /* BKMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKMainController.m; sourceTree = "<group>"; };
+		14CAE6850D82F205005AB3C8 /* HistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryView.h; sourceTree = "<group>"; };
+		14CAE6860D82F205005AB3C8 /* HistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryView.m; sourceTree = "<group>"; };
+		14CAE8950D83ED8C005AB3C8 /* BookmarkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkController.h; sourceTree = "<group>"; };
+		14CAE8960D83ED8C005AB3C8 /* BookmarkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkController.m; sourceTree = "<group>"; };
+		14CAEA970D84427B005AB3C8 /* ThreadIndexCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadIndexCell.h; sourceTree = "<group>"; };
+		14CAEA980D84427B005AB3C8 /* ThreadIndexCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadIndexCell.m; sourceTree = "<group>"; };
+		14FB163D0CC22E3B004DFCDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = "/usr/local/arm-apple-darwin/heavenly/System/Library/Frameworks/Foundation.framework"; sourceTree = "<absolute>"; };
+		14FB163E0CC22E3B004DFCDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = "/usr/local/arm-apple-darwin/heavenly/System/Library/Frameworks/UIKit.framework"; sourceTree = "<absolute>"; };
+		14FB168F0CC233D7004DFCDA /* MyApp.h */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.h; path = MyApp.h; sourceTree = "<group>"; };
+		14FB16900CC233D7004DFCDA /* MyApp.m */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = sourcecode.c.objc; path = MyApp.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D92591D70C6B431100BBDBBC /* Makefile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; fileEncoding = 30; path = Makefile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				14FB168F0CC233D7004DFCDA /* MyApp.h */,
+				14FB16900CC233D7004DFCDA /* MyApp.m */,
+				14C0B0930D4B072300987A3B /* RootController.h */,
+				14C0B0940D4B072300987A3B /* RootController.m */,
+				14C0B0A50D4B0A2C00987A3B /* Downloader.h */,
+				14C0B0A60D4B0A2C00987A3B /* Downloader.m */,
+				14B213E90D35EABC003FE31D /* global.h */,
+				14C0B24B0D4B367000987A3B /* global.m */,
+				14CAEA970D84427B005AB3C8 /* ThreadIndexCell.h */,
+				14CAEA980D84427B005AB3C8 /* ThreadIndexCell.m */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		143CB8A00D7ADBEF00E9BEBA /* Bookmark */ = {
+			isa = PBXGroup;
+			children = (
+				14CAE4800D82977E005AB3C8 /* BKMainController.h */,
+				14CAE4810D82977E005AB3C8 /* BKMainController.m */,
+				143CB89C0D7ADBD600E9BEBA /* BookmarkView.h */,
+				143CB89D0D7ADBD600E9BEBA /* BookmarkView.m */,
+				14CAE6850D82F205005AB3C8 /* HistoryView.h */,
+				14CAE6860D82F205005AB3C8 /* HistoryView.m */,
+				143CB7EA0D7AD0E700E9BEBA /* HistoryController.h */,
+				143CB7EB0D7AD0E700E9BEBA /* HistoryController.m */,
+				14CAE8950D83ED8C005AB3C8 /* BookmarkController.h */,
+				14CAE8960D83ED8C005AB3C8 /* BookmarkController.m */,
+			);
+			name = Bookmark;
+			sourceTree = "<group>";
+		};
+		1484DEDE0D44E2AC00DAEE94 /* Japanese.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1484DEDF0D44E2AC00DAEE94 /* Localizable.strings */,
+			);
+			name = Japanese.lproj;
+			path = Resources/Japanese.lproj;
+			sourceTree = "<group>";
+		};
+		14C0B0950D4B074C00987A3B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				14C0B08E0D4B06B900987A3B /* MainView.h */,
+				14C0B08F0D4B06B900987A3B /* MainView.m */,
+				14273CFA0D5EEFC500060CC9 /* MainController.h */,
+				14273CFB0D5EEFC500060CC9 /* MainController.m */,
+				14C0B0B60D4B0B8F00987A3B /* BBSMenu.h */,
+				14C0B0B70D4B0B8F00987A3B /* BBSMenu.m */,
+				14C0B3240D4B661100987A3B /* CategoryView.h */,
+				14C0B3250D4B661100987A3B /* CategoryView.m */,
+				14273FF70D5F422C00060CC9 /* BoardView.h */,
+				14273FF80D5F422C00060CC9 /* BoardView.m */,
+				142742680D5FF4BE00060CC9 /* subjectTxt.h */,
+				142742690D5FF4BE00060CC9 /* subjectTxt.m */,
+				142743620D60079400060CC9 /* ThreadTitleView.h */,
+				142743630D60079400060CC9 /* ThreadTitleView.m */,
+				142744AF0D6030A700060CC9 /* DatFile.h */,
+				142744B00D6030A700060CC9 /* DatFile.m */,
+				142745AD0D605A2B00060CC9 /* ThreadView.h */,
+				142745AE0D605A2B00060CC9 /* ThreadView.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				D92591D70C6B431100BBDBBC /* Makefile */,
+				080E96DDFE201D6D7F000001 /* Root */,
+				143CB8A00D7ADBEF00E9BEBA /* Bookmark */,
+				14C0B0950D4B074C00987A3B /* Main */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Motion;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1484DEDD0D44E2AC00DAEE94 /* Info.plist */,
+				1484DEDE0D44E2AC00DAEE94 /* Japanese.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14FB163D0CC22E3B004DFCDA /* Foundation.framework */,
+				14FB163E0CC22E3B004DFCDA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D92591D10C6B42C700BBDBBC /* buildByXcode */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = D92591D40C6B42CE00BBDBBC /* Build configuration list for PBXLegacyTarget "buildByXcode" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = buildByXcode;
+			passBuildSettingsInEnvironment = 1;
+			productName = Motion;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "2tch" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Motion */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D92591D10C6B42C700BBDBBC /* buildByXcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXVariantGroup section */
+		1484DEDF0D44E2AC00DAEE94 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1484DEE00D44E2AC00DAEE94 /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm;
+				CC = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
+				CXX = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
+				PREBINDING = NO;
+				PRODUCT_NAME = 2tch;
+				SDKROOT = /Developer/SDKs/iPhone.sdk;
+				SHARED_PRECOMPS_DIR = "/Library/Caches/com.apple.Xcode.iPhone.$(UID)/SharedPrecompiledHeaders";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm;
+				CC = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
+				CXX = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD = "/usr/local/iphonedev/bin/arm-apple-darwin-cc";
+				PREBINDING = NO;
+				PRODUCT_NAME = 2tch;
+				SDKROOT = /Developer/SDKs/iPhone.sdk;
+				SHARED_PRECOMPS_DIR = "/Library/Caches/com.apple.Xcode.iPhone.$(UID)/SharedPrecompiledHeaders";
+			};
+			name = Release;
+		};
+		D92591D50C6B42CE00BBDBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+			};
+			name = Debug;
+		};
+		D92591D60C6B42CE00BBDBBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "2tch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92591D40C6B42CE00BBDBBC /* Build configuration list for PBXLegacyTarget "buildByXcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92591D50C6B42CE00BBDBBC /* Debug */,
+				D92591D60C6B42CE00BBDBBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

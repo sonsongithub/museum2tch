@@ -1,0 +1,49 @@
+//
+// Prefix header for all source files of the '2tch' target in the '2tch' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+	#import <sqlite3.h>
+#endif
+
+#define _USE_EMOJI			// if don't use EMOJI, comment out this line
+
+#define ANCHOR_OFFSET_X 3
+#define ANCHOR_OFFSET_Y 3
+
+#define THREAD_BODY_TOP_MARGIN		10
+#define THREAD_BODY_BOTTOM_MARGIN	10
+
+#if TARGET_IPHONE_SIMULATOR
+	#import <objc/objc-runtime.h>
+#else
+	#import <objc/runtime.h>
+#endif
+
+#ifdef	_DEBUG
+	#define	DNSLog(...);	NSLog(__VA_ARGS__);
+	#define DNSLogMethod	NSLog( @"[%s] %@", class_getName([self class]), NSStringFromSelector(_cmd) );
+#else
+	#define DNSLog(...);	// NSLog(__VA_ARGS__);
+	#define DNSLogMethod	// NSLog( @"[%s] %@", class_getName([self class]), NSStringFromSelector(_cmd) );
+#endif
+
+#define LocalStr(key) NSLocalizedString( (key), nil )
+
+#import "_tchAppDelegate.h"
+
+_tchAppDelegate		*UIAppDelegate;
+NSString			*DocumentFolderPath;
+
+UIFont				*threadTitleFont;
+UIFont				*threadTitleInfoFont;
+UIFont				*threadInfoFont;
+UIFont				*threadFont;
+float				HeightThreadTitleFont;
+float				HeightThreadTitleInfoFont;
+float				HeightThreadFont;
+float				HeightThreadInfoFont;
+
+NSString			*kUpdateTitleNotification;

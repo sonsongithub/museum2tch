@@ -1,0 +1,89 @@
+// ---------- Global ---------- //
+"SvnRevision" = "172";
+"SvnUpdateDate" = "2008-08-18 23:02:01 +0900";
+"Error" = "Error";
+"ErrorWrongDataRead" = "Can't read new data";
+"ErrorOKButton" = "OK";
+
+// ---------- BaseInfoViewController ---------- //
+"InfoViewTitle" = "Info";
+"InfoViewClose" = "Close";
+"InfoView_AppSectionTitle" = "Application";
+"InfoViewApplicationTitle" = "Title";
+"InfoViewVersionTitle" = "Version";
+"InfoViewCopyRightTitle" = "Copyright";
+"InfoViewCopyRight" = "sonson";
+"InfoViewGoToWebSite" = "Go to the web site";
+"InfoViewGoToWebSiteURL" = "http://son-son.sakura.ne.jp/i/app_store/2tch_free_english.html";
+"InfoView_InfoSectionTitle" = "Infomation";
+"InfoView_InfoMessage" = "2tch free is free. If you like this application, please buy 2tch, paid version, that will be in App Store later. Thank you.";
+"InfoView_CacheSectionTitle" = "Cache";
+"InfoViewDeleteCache" = "Delete Cache";
+"InfoViewCacheSize" = "Size";
+"InfoViewCacheLoading" = "Loading...";
+"InfoViewNumberOfThread" = "Threads";
+"InfoViewCacheSheetTitle" = "Are you sure you want to clear the cache?";
+"InfoViewCacheSheetCancelButton" = "Cancel";
+"InfoViewCacheSheetDeleteButton" = "Delete All";
+
+// ---------- Downloader ---------------------- //
+"DownloaderNetworkErrorMsg" = "Network error";
+"DownloaderNetworkErrorDatFialed" = "Dat file has gone?";
+
+// ---------- MainWindowController ------------ //
+"CategoryViewTitle" = "Category";
+"InfoViewOpen" = "Info";
+
+// ---------- BoardViewController ------------- //
+"BoardViewTitle" = "Board menu";
+
+// ------------- BBSMenuParser ---------------- //
+"BBSMenuHUDMessage" = "Updating menu...";
+
+// ---------- ThreadTitleViewController-------- //
+"ThreadTitleViewTitle" = "Thread titles";
+"ThreadTitleViewSearchPrompt" = "Search title";
+"ThreadTitleCellPrompt" = "Res";
+"ThreadTitleCellPromptGot" = "Got";
+
+// ---------- ThreadViewController-------- //
+"ThreadViewLoadingHUD" = "Loading...";
+"ThreadViewResHUD" = "Res";
+"ThreadViewConfirmOpenSafari" = "Open this URL with Safari?";
+"ThreadViewConfirmOpenSafariCancel" = "Cancel";
+"ThreadViewConfirmOpenSafariOK" = "Open";
+
+// ------------- DatFileParser ---------------- //
+"DatFileParserLoadingTitle" = "Reading Subject.txt...";
+"DatFileParserCompleteTitle" = "Complete!";
+
+// ---------- BookmarkViewController ---------- //
+"BookmarkViewTitle" = "Bookmark";
+"BookmarkViewClose" = "Close";
+"BookmarkViewEdit" = "Edit";
+"BookmarkViewEditComplete" = "Done";
+
+// ---------- HistoryViewController ----------- //
+"HistoryViewTitle" = "History";
+"HistoryViewClose" = "Close";
+"HistoryViewDelete" = "Delete";
+
+"HistoryViewDeletePrompt" = "Are you deleting history?";
+"HistoryViewDeleteButton0" = "History";
+"HistoryViewDeleteButton1" = "Cancel";
+
+// ---------- BBSMenu読み込みのための識別用の文字列 ---------- //
+"HeaderBBSMenu" = "地震";
+"FooterBBSMenu" = "まちＢＢＳ";
+//"FooterBBSMenu" = "他のサイト";
+
+// ---------- ReplyViewController ----------- //
+"ReplyTitle" = "Write";
+"ReplyLeftButton" = "Send";
+"ReplyRightButton" = "Close";
+"ReplyPromptName" = "Name";
+"ReplyPromptEmail" = "E-mail";
+"ReplyPromptBody" = "Body";
+"ReplyAlertViewConfirmWriting" = "Confirm";
+"ReplyAlertViewConfirmComplete" = "Completed";
+"ReplyAlertViewConfirmFail" = "Failed";
